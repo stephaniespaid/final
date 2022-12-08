@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&family=Montserrat:wght@300&family=Zen+Dots&display=swap');
+
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+.bg-image-home {background: url("images/background-home.png") no-repeat fixed center center;
+    background-size: contain;
+
+}
+
+.bg-image-other {
+    background: url("images/background-other.png") no-repeat fixed center center;
+    background-size: contain;
+}
+
+.logo-home {
+    display: flex;
+    justify-content: center;
+    margin-top: 375px;
+    margin-bottom: 300px;
+}
+
+h1 {
+    font-family: 'Zen Dots', cursive;
+}
+
+.buttons-position-home {
+    display: flex;
+    justify-content: center;
+}
+.buttons-home {
+    background-color: rgb(253, 253, 253) ;
+    color:rgb(75, 61, 22);
+    border: none;
+    padding: 15px 32px;
+    margin-top: 75px;
+    font-size: 20px;
+    border-radius: 15px;
+    
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 220px;
+}
+
+/*————————————————————Other Pages——————————————————*/
+
+.logo-other{
+    display: flex;
+    justify-content: center;
+    margin-top: 175px;
+    
+}
+.goat {
+    margin-top: 125px;
+    margin-left: 750px
+}
+
+.buttons-position-personal {
+    display: flex;
+    justify-content: center;
+}
+    
+.buttons2 {
+        background-color: rgb(255, 255, 255) ;
+        color:rgb(75, 61, 22);
+        border: none;
+        padding: 15px 32px;
+        margin-top: 350px;
+        display: inline-block;
+        font-size: 20px;
+        border-radius: 15px;   
+}
+
+/***********************For Tablet****************************/
+@media screen and (min-width: 481px) and (max-width: 935px){
+    .logo-home{
+        margin-top: 405px;
+    }
+
+    h2{
+        margin-top: 120px;
+    }
+
+
+
+
+
+
+}
+
+
+/**************************For Iphone******************************/
+@media screen and (max-width: 480px){
+
+
+
+
+
+
+
+
+
+}
